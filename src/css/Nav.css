@@ -1,0 +1,40 @@
+.nav {
+  border: 5px solid red;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* background-color: aqua; */
+  margin: 20px;
+  /* width: fit-content; */
+  /* height: 50px; */
+}
+
+.content {
+  /* background-color: blueviolet; */
+  padding: 10px;
+}
+.content a {
+  padding: 10px;
+  text-decoration: none;
+}
+.content a:hover {
+  background-color: red;
+  color: yellow;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 20px;
+  margin: 5px;
+}
+.logo p {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px; */
+  font-family: "Courier New", Courier, monospace;
+}
